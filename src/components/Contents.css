@@ -1,0 +1,8 @@
+.section-headings{
+    /* display: grid;
+    grid-template-columns: 240px 240px 240px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 8%;
+    
+}

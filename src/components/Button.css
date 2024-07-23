@@ -1,0 +1,15 @@
+.button-fields{
+    margin-left: 30px;
+    background-color: blanchedalmond;
+}
+
+.button-fields:focus{
+    background-color: aqua;
+}
+
+.button_fields{
+    margin-left: 15px;
+    align-items: center;
+    cursor: pointer;
+    
+}

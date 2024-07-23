@@ -1,0 +1,33 @@
+This project involves using a state array object to retreive, store the different tasks obtained from the user.
+
+
+The usage of Button component with a map function requires universal state mananagement.So at present it is better to pass the button values as props from the parent component
+
+
+* button.jsx initial approach
+
+
+now I am trying to pass the values as props 
+
+I was able to resolve this issue by making the function, call as props and calling it in the child component
+
+
+ setheadVal( prev => {
+    return{
+      (...prev,)
+    }
+  })  --> the purpose of this is to get the attribute name in this case task and status which are passed as object pair in an array
+
+
+  I was able to converge all of the task input,option selection and tag selection into a single function i.e., the function which is passed as a props to the child component
+  Now I have to extract the tag name and pass it as the value
+
+
+  So again button.jsx needs to be modified such that the component accepts the name as a prop displays it and this same attribute can be used as a function
+I tried using two different functions in heading.jsx one for task input and status and other for handling Button.jsx
+
+I was able to store it in the state. Now I have to use this state to create a subsection based on the status
+
+Handle tag click logic where if one button is initially selected next time it should be removed when clicked again and if another option is selected it should append to the existing array
+
+How do I highlight the clicked tag button ? I can set a state I was able to pass the state value of the parent component as props and then destructured it and used .includes() to change the background colour

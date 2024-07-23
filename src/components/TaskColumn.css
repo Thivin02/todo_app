@@ -1,0 +1,27 @@
+.column-image{
+    /* width: 30px;
+    position: relative;
+    left : 25px;
+    bottom : 5px; */
+    width: 30px;
+    margin-right: 5px;
+    
+}
+
+/* .task-column{
+    display: grid;
+    width: 400px;
+    align-items: start;
+
+    margin-top : 20px;
+    margin-left: 10px;
+    
+    
+} */
+
+.task-heading{
+    /* display: grid;
+    grid-template-columns: 60px 60px 60px; */
+    display: flex;
+    align-items: center;
+}

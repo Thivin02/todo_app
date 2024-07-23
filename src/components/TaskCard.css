@@ -1,0 +1,43 @@
+.task-card {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.taskcard-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskcard-text{
+    /* position: relative; */
+    /* position: relative;
+    left : 60px; */
+    /* align-items: start;  */
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+   
+}
+
+.taskcard-imgdiv{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.taskcard-img{
+    width: 20px;
+    opacity: 50%;
+    transition: all 0.3s ease-in-out;
+}
+

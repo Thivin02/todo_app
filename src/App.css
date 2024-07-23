@@ -1,0 +1,13 @@
+.app{
+  /* font-weight: 100;
+  position: relative;  
+  left : 85px */
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+
+.task-column {
+  width: 33.33%;
+  margin: 20px;
+}
